@@ -1,0 +1,261 @@
+@font-face {
+    font-family: IRANSans;
+    src: url('../font/IRANSansWeb(FaNum).eot');
+    src: url('../font/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'),
+         url('../font/IRANSansWeb(FaNum).woff2') format('woff2'),
+         url('../font/IRANSansWeb(FaNum).woff') format('woff'),
+         url('../font/IRANSansWeb(FaNum).ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+body,input{
+    font-family: IRANSans;
+}
+body {
+    direction: rtl;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* header */
+
+#header {
+    margin-top: 20px;
+}
+
+#header #logo img {
+    width: 90px;
+}
+
+#header .titles {
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    right: 10px;
+}
+
+#header .titles h1 {
+    font-size: 30px;
+}
+
+#header .titles h2 {
+    font-size: 15px;
+}
+
+#header .users {
+    position: absolute;
+    top: 40px;
+    left: 5px;
+}
+
+#header .users .button {
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+}
+
+#header .users .login {
+    background-color: #1565c0;
+}
+
+#header .users .login:hover {
+    background-color: #0d47a1;
+}
+
+#header .users .register {
+    background-color: #2e7d32;
+}
+
+#header .users .register:hover {
+    background-color: #1b5e20;
+}
+
+/* navigation */
+
+#navigation {
+    background-color: #263238;
+    margin-top: 20px;
+    top: 5px;
+}
+
+#navigation ul li {
+    display: inline-block;
+}
+
+#navigation ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline-block;
+    padding: 20px 15px;
+    transition: 0.15s;
+}
+
+#navigation ul li a:hover {
+    background-color: #37474f;
+}
+
+/* content */
+
+#content {
+    width: 800px;
+    float: right;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: -5px;
+}
+
+.post-item {
+    background-color: #fff;
+    border: 1PX solid #CCC;
+    border-radius: 3PX;
+    margin-top: 15px;
+}
+
+.post-item .post-title {
+    font-weight: bold;
+    border-bottom: 2px dashed #ccc;
+    font-size: 27px;
+    padding: 0 12px 5px 0;
+    margin: 5px 0 10px 0;
+}
+
+.post-item .post-imege {
+    margin: 5px;
+    float: right;
+}
+
+.post-item .post-imege img {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.post-item .post-content {
+    padding: 5px;
+    height: 240px;
+    overflow: hidden;
+    line-height: 25px;
+    text-align: justify;
+    margin-top: -25px;
+}
+
+.post-item .post-data {
+    background-color: #f0f0f0;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+}
+
+.post-item .read-more {
+    background-color: #212121;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 7px;
+    left: 5px;
+}
+
+.post-item .read-more:hover {
+    background-color: #000;
+}
+
+/* sidebar */
+
+#sidebar {
+    width: 295px;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#sidebar .sidebar-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+#sidebar .sidebar-item .sidebar-header {
+    background-color: #212121;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px 3px 0 0;
+}
+
+#sidebar .sidebar-item .sidebar-content {
+    padding: 10px;
+}
+
+#sidebar .categories ul li a {
+    text-decoration: none;
+    color: #212121;
+    display: inline-block;
+    margin-top: 10px;
+    border-right: 2px solid #212121;
+    padding-right: 5px;
+}
+
+#sidebar .categories ul li a:hover {
+    border-right: 4px solid #1565c0;
+    margin-right: 5px;
+    transition: 0.25s;
+}
+
+#sidebar .newsletter {
+    text-align: center;
+}
+
+#sidebar .newsletter p {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+#sidebar .newsletter .email-input {
+    padding: 5px;
+    width: 90%;
+    margin-top: 10px;
+}
+
+#sidebar .newsletter .submit-btn {
+    background-color: #2e7d32;
+    margin-top: 10px;
+    border: none;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+#sidebar .newsletter .submit-btn:hover {
+    background-color: #266429;
+    cursor: pointer;
+}
+
+/* footer */
+
+#footer {
+    background-color: #212121;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#footer P {
+    color: #fff;
+    font-size: 14px;
+}
